@@ -7,5 +7,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/sparta_db</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="sparta_db@localhost [2]" uuid="e88f5efa-c093-4f47-bd4e-f19497f4cf73">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/sparta_db</jdbc-url>
+    </data-source>
   </component>
 </project>

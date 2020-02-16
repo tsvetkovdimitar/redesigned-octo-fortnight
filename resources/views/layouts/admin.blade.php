@@ -12,19 +12,34 @@
     <title>Admin</title>
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+{{--    <link rel="stylesheet" type="text/css" href="resources/css/libs/blog-post.css">--}}
+{{--    <link rel="stylesheet" type="text/css" href="resources/css/libs/bootstrap.min.css">--}}
+{{--    <link rel="stylesheet" type="text/css" href="resources/css/libs/font-awesome.css">--}}
+{{--    <link rel="stylesheet" type="text/css" href="resources/css/libs/metisMenu.css">--}}
+{{--    <link rel="stylesheet" type="text/css" href="resources/css/libs/sb-admin-2.css">--}}
+{{--    <link rel="stylesheet" type="text/css" href="resources/css/libs/styles.css">--}}
+
+{{--    <script src="resources/js/libs/jquery.js"></script>--}}
+{{--    <script src="resources/js/libs/bootstrap.min.js"></script>--}}
+{{--    <script src="resources/js/libs/metisMenu.js"></script>--}}
+{{--    <script src="resources/js/libs/sb-admin-2.js"></script>--}}
+{{--    <script src="resources/js/libs/scripts.js"></script>--}}
+
 
     <!-- Bootstrap Core CSS -->
     <link href="{{asset('css/app.css')}}" rel="stylesheet">
 
     <link href="{{asset('css/libs.css')}}" rel="stylesheet">
-
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -340,7 +355,7 @@
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Admin</h1>
+                <h1 class="page-header"></h1>
 
                 @yield('content')
             </div>
