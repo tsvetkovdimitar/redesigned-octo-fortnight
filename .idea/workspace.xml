@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407aa2f-9843-4ef3-9b62-614cd807a034" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sparta.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sparta.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,6 +138,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
   <component name="ProjectId" id="1XquX0BfyytytMSStJECSRlNXF9" />
@@ -185,7 +191,8 @@
       <workItem from="1581788287528" duration="11571000" />
       <workItem from="1581807992039" duration="2413000" />
       <workItem from="1581844834403" duration="2380000" />
-      <workItem from="1581855127312" duration="8379000" />
+      <workItem from="1581855127312" duration="9300000" />
+      <workItem from="1581888273988" duration="2239000" />
     </task>
     <servers />
   </component>
@@ -205,29 +212,33 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="911" y="283" key="FileChooserDialogImpl/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581789865422" />
-    <state width="1368" height="396" key="GridCell.Tab.0.bottom" timestamp="1581855233177">
+    <state width="1368" height="396" key="GridCell.Tab.0.bottom" timestamp="1581865772678">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1368" height="396" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581855233177" />
-    <state width="1368" height="396" key="GridCell.Tab.0.center" timestamp="1581855233177">
+    <state width="1368" height="396" key="GridCell.Tab.0.bottom/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581865772678" />
+    <state width="1368" height="396" key="GridCell.Tab.0.center" timestamp="1581865772678">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1368" height="396" key="GridCell.Tab.0.center/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581855233177" />
-    <state width="1368" height="396" key="GridCell.Tab.0.left" timestamp="1581855233177">
+    <state width="1368" height="396" key="GridCell.Tab.0.center/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581865772678" />
+    <state width="1368" height="396" key="GridCell.Tab.0.left" timestamp="1581865772678">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1368" height="396" key="GridCell.Tab.0.left/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581855233177" />
-    <state width="1368" height="396" key="GridCell.Tab.0.right" timestamp="1581855233177">
+    <state width="1368" height="396" key="GridCell.Tab.0.left/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581865772678" />
+    <state width="1368" height="396" key="GridCell.Tab.0.right" timestamp="1581865772678">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="1368" height="396" key="GridCell.Tab.0.right/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581855233177" />
+    <state width="1368" height="396" key="GridCell.Tab.0.right/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581865772678" />
+    <state x="361" y="434" width="753" height="538" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1581889223869">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="361" y="434" width="753" height="538" key="PHPComposerAddDependencyDialogDimensionKey/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581889223869" />
     <state x="435" y="84" key="SettingsEditor" timestamp="1581789893965">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="435" y="84" key="SettingsEditor/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581789893965" />
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1581844837340">
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1581888277451">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581844837340" />
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581888277451" />
   </component>
 </project>
