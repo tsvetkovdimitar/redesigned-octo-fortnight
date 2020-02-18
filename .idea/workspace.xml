@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e407aa2f-9843-4ef3-9b62-614cd807a034" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/public/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/create.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +155,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -160,11 +167,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\resources\js" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public\css" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\resources\views\layouts" />
-      <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public" />
     </key>
   </component>
   <component name="RunManager">
@@ -188,7 +195,10 @@
       <workItem from="1581844834403" duration="2380000" />
       <workItem from="1581855127312" duration="9300000" />
       <workItem from="1581888273988" duration="2838000" />
-      <workItem from="1581966181068" duration="6785000" />
+      <workItem from="1581966181068" duration="7224000" />
+      <workItem from="1581975812975" duration="227000" />
+      <workItem from="1582026336612" duration="192000" />
+      <workItem from="1582026557112" duration="2283000" />
     </task>
     <servers />
   </component>
@@ -232,9 +242,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="435" y="84" key="SettingsEditor/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581789893965" />
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1581966181482">
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1582026478788">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581966181482" />
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1582026478788" />
   </component>
 </project>
