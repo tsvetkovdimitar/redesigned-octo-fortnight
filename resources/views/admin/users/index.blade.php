@@ -11,6 +11,7 @@
         <thead>
             <tr>
                 <th>Id</th>
+                <th>Photo</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Role</th>
@@ -26,6 +27,11 @@
 
                     <tr>
                         <td>{{$user->id}}</td>
+                        @if ($user->photo()->exists())
+                            <td><img height="50" src="{!! asset($user->photo->file)!!}" alt=""></td>
+                        @else
+                            <td>No photo</td>
+                        @endif
                         <td>{{$user->name}}</td>
                         <td>{{$user->email}}</td>
                         <td>{{$user->role ? $user->role->name : 'User has no role'}}</td>
