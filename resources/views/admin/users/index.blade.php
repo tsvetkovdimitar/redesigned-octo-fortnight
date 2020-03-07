@@ -32,7 +32,7 @@
                         @else
                             <td>No photo</td>
                         @endif
-                        <td>{{$user->name}}</td>
+                        <td><a href="{{route('admin.users.edit', $user->id)}}">{{$user->name}}</a></td>
                         <td>{{$user->email}}</td>
                         <td>{{$user->role ? $user->role->name : 'User has no role'}}</td>
                         <td>{{$user->is_active == 1 ? 'Active' : 'Not Active'}}</td>

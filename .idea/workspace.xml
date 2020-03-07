@@ -4,6 +4,7 @@
     <list default="true" id="e407aa2f-9843-4ef3-9b62-614cd807a034" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdminUsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,7 +149,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -159,12 +160,15 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public\images" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\resources\js" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public\css" />
-      <recent name="C:\Users\tsvet\PhpstormProjects\sparta\resources\views\layouts" />
     </key>
   </component>
   <component name="RunManager">
@@ -194,7 +198,8 @@
       <workItem from="1582026557112" duration="5327000" />
       <workItem from="1582361741666" duration="12209000" />
       <workItem from="1582454865907" duration="1062000" />
-      <workItem from="1582466770672" duration="9563000" />
+      <workItem from="1582466770672" duration="9787000" />
+      <workItem from="1583580258498" duration="9841000" />
     </task>
     <servers />
   </component>
@@ -206,18 +211,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="736" y="272" width="1089" height="938" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581862638491" />
-    <state x="916" y="450" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581862463166">
+    <state x="916" y="450" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583587158193">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="916" y="450" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581862463166" />
-    <state x="93" y="93" width="1095" height="1215" key="DirDiffDialog" timestamp="1582479203139">
+    <state x="916" y="450" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1583587158193" />
+    <state x="93" y="93" width="1095" height="1215" key="DirDiffDialog" timestamp="1583589212532">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="93" y="93" width="1095" height="1215" key="DirDiffDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1582479203139" />
-    <state x="911" y="283" key="FileChooserDialogImpl" timestamp="1582479109076">
+    <state x="93" y="93" width="1095" height="1215" key="DirDiffDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1583589212532" />
+    <state x="911" y="283" key="FileChooserDialogImpl" timestamp="1583587222537">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="911" y="283" key="FileChooserDialogImpl/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1582479109076" />
+    <state x="911" y="283" key="FileChooserDialogImpl/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1583587222537" />
     <state width="1368" height="396" key="GridCell.Tab.0.bottom" timestamp="1581865772678">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -242,13 +247,17 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="435" y="84" key="SettingsEditor/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581789893965" />
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1582466822013">
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1583580258994">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1582466822013" />
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1583580258994" />
     <state x="93" y="93" width="1095" height="1215" key="dock-window-1" timestamp="1582479980240">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="93" y="93" width="1095" height="1215" key="dock-window-1/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1582479980240" />
+    <state x="1155" y="564" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1583581957104">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1155" y="564" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1583581957104" />
   </component>
 </project>
