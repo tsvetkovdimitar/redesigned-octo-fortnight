@@ -30,7 +30,7 @@
                         @if ($user->photo()->exists())
                             <td><img height="50" src="{!! asset($user->photo->file)!!}" alt=""></td>
                         @else
-                            <td>No photo</td>
+                            <td><img height="50" src="{!! asset('images/placeholder.png')!!}" alt=""></td>
                         @endif
                         <td><a href="{{route('admin.users.edit', $user->id)}}">{{$user->name}}</a></td>
                         <td>{{$user->email}}</td>
