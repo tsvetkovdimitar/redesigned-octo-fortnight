@@ -25,8 +25,14 @@ Route::get('/admin', function(){
 
 });
 
-//Route::resource('admin/users', 'AdminUsersController');
-Route::name('admin.')->group(function(){
-    // we use Route::name to add prefix admin. to the route, to prevent route conflict with the front side
+Route::group(['middleware'=>'admin'], function(){
+
     Route::resource('/admin/users', 'AdminUsersController');
+
 });
+
+////Route::resource('admin/users', 'AdminUsersController');
+//Route::name('admin.')->group(function(){
+//    // we use Route::name to add prefix admin. to the route, to prevent route conflict with the front side
+//    Route::resource('/admin/users', 'AdminUsersController');
+//});
