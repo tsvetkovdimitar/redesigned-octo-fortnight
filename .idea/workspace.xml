@@ -5,7 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/users/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -209,7 +210,14 @@
       <workItem from="1583955782277" duration="402000" />
       <workItem from="1583960941753" duration="991000" />
       <workItem from="1584046528442" duration="481000" />
-      <workItem from="1584268568741" duration="6574000" />
+      <workItem from="1584268568741" duration="10656000" />
+      <workItem from="1584297611670" duration="6240000" />
+      <workItem from="1584364130992" duration="2113000" />
+      <workItem from="1584403714108" duration="463000" />
+      <workItem from="1584456800408" duration="2232000" />
+      <workItem from="1584544791752" duration="1292000" />
+      <workItem from="1584570175941" duration="1696000" />
+      <workItem from="1584630662788" duration="1345000" />
     </task>
     <servers />
   </component>
@@ -257,10 +265,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="435" y="84" key="SettingsEditor/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1581789893965" />
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1584268569889">
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1584636142290">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1584268569889" />
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1584636142290" />
     <state x="93" y="93" width="1095" height="1215" key="dock-window-1" timestamp="1582479980240">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
