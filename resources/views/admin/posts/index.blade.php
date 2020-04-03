@@ -36,7 +36,7 @@
                 @else
                     <td><img height="50" width="100" src="{!! asset('images/emptyspeechbubble.jpg')!!}" alt=""></td>
                 @endif
-                <td>{{$post->user->name}}</td>
+                <td><a href="{{route('posts.edit', $post->id)}}">{{$post->user->name}}</a></td>
                 <td>{{$post->category ? $post->category->name : "No category"}}</td>
                 <td>{{$post->title}}</td>
                 <td>{{$post->body}}</td>
