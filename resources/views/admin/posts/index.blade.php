@@ -39,7 +39,7 @@
                 <td><a href="{{route('posts.edit', $post->id)}}">{{$post->user->name}}</a></td>
                 <td>{{$post->category ? $post->category->name : "No category"}}</td>
                 <td>{{$post->title}}</td>
-                <td>{{$post->body}}</td>
+                <td>{{\Illuminate\Support\Str::limit($post->body, 300)}}</td>
                 <td>{{$post->created_at->diffForHumans()}}</td>
                 <td>{{$post->updated_at->diffForHumans()}}</td>
             </tr>
