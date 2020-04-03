@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407aa2f-9843-4ef3-9b62-614cd807a034" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/images/emptyspeechbubble.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterDir="false" />
@@ -234,7 +233,7 @@
       <workItem from="1585782789244" duration="7178000" />
       <workItem from="1585825702335" duration="7884000" />
       <workItem from="1585864210449" duration="532000" />
-      <workItem from="1585904236010" duration="6065000" />
+      <workItem from="1585904236010" duration="10023000" />
     </task>
     <servers />
   </component>

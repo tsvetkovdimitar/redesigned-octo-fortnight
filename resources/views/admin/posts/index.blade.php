@@ -37,7 +37,7 @@
                     <td><img height="50" width="100" src="{!! asset('images/emptyspeechbubble.jpg')!!}" alt=""></td>
                 @endif
                 <td>{{$post->user->name}}</td>
-                <td>{{$post->category_id}}</td>
+                <td>{{$post->category ? $post->category->name : "No category"}}</td>
                 <td>{{$post->title}}</td>
                 <td>{{$post->body}}</td>
                 <td>{{$post->created_at->diffForHumans()}}</td>
