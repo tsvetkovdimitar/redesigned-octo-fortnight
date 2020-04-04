@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407aa2f-9843-4ef3-9b62-614cd807a034" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/media/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,15 +160,16 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public\images" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public\images" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\resources\js" />
       <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\tsvet\PhpstormProjects\sparta\resources\views\admin" />
+      <recent name="C:\Users\tsvet\PhpstormProjects\sparta\public\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -234,7 +236,7 @@
       <workItem from="1585825702335" duration="7884000" />
       <workItem from="1585864210449" duration="532000" />
       <workItem from="1585904236010" duration="19195000" />
-      <workItem from="1585996420020" duration="9503000" />
+      <workItem from="1585996420020" duration="15806000" />
     </task>
     <servers />
   </component>
