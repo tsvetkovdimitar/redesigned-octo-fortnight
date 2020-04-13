@@ -32,6 +32,15 @@
                     <td><img height="50" src="{!! asset('images/placeholder.png')!!}" alt=""></td>
                 @endif
                 <td>{{$photo->created_at ? $photo->created_at : 'No Date'}}</td>
+                <td>
+                    {!! Form::open(['method'=>'DELETE', 'action'=>['AdminMediasController@destroy', $photo->id]]) !!}
+
+                    <div class="form-group">
+                        {!! Form::submit('Delete', ['class'=>'btn btn-danger']) !!}
+                    </div>
+
+                    {!! Form::close() !!}
+                </td>
             </tr>
 
             @endforeach

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407aa2f-9843-4ef3-9b62-614cd807a034" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/comments/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/media/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/media/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +238,11 @@
       <workItem from="1585864210449" duration="532000" />
       <workItem from="1585904236010" duration="19195000" />
       <workItem from="1585996420020" duration="16071000" />
-      <workItem from="1586077376234" duration="5511000" />
+      <workItem from="1586077376234" duration="7374000" />
+      <workItem from="1586603364214" duration="28000" />
+      <workItem from="1586624137619" duration="260000" />
+      <workItem from="1586777012758" duration="10000" />
+      <workItem from="1586777028581" duration="10680000" />
     </task>
     <servers />
   </component>
@@ -250,10 +258,15 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="916" y="450" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1583587158193" />
-    <state x="961" y="403" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585471486325">
+    <state x="961" y="403" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586777018875">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="961" y="403" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1585471486325" />
+    <state x="961" y="403" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/3840.992.1360.708/0.0.2560.1400@0.0.2560.1400" timestamp="1586777018875" />
+    <state x="866" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586801816020">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="866" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/3840.992.1360.708/0.0.2560.1400@0.0.2560.1400" timestamp="1586801816020" />
     <state x="93" y="93" width="1095" height="1215" key="DirDiffDialog" timestamp="1586082372430">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -287,11 +300,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="435" y="84" key="SettingsEditor/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1585510374443" />
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1586077376897">
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1586777036347">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1585904236694" />
     <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.890.1360.728@0.0.2560.1400" timestamp="1586077376897" />
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/3840.992.1360.708/0.0.2560.1400@0.0.2560.1400" timestamp="1586777036347" />
     <state x="93" y="93" width="1095" height="1215" key="dock-window-1" timestamp="1582479980240">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
