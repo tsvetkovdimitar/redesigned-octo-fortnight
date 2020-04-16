@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e407aa2f-9843-4ef3-9b62-614cd807a034" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/comments/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/blog-home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layouts/blog-post.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/media/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/media/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -242,7 +243,11 @@
       <workItem from="1586603364214" duration="28000" />
       <workItem from="1586624137619" duration="260000" />
       <workItem from="1586777012758" duration="10000" />
-      <workItem from="1586777028581" duration="10680000" />
+      <workItem from="1586777028581" duration="11209000" />
+      <workItem from="1586868931631" duration="8495000" />
+      <workItem from="1586937697739" duration="4093000" />
+      <workItem from="1586959907258" duration="1555000" />
+      <workItem from="1587050614976" duration="4899000" />
     </task>
     <servers />
   </component>
@@ -300,12 +305,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="435" y="84" key="SettingsEditor/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1585510374443" />
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1586777036347">
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1587050615271">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1585904236694" />
     <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.890.1360.728@0.0.2560.1400" timestamp="1586077376897" />
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/3840.992.1360.708/0.0.2560.1400@0.0.2560.1400" timestamp="1586777036347" />
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/3840.992.1360.708/0.0.2560.1400@0.0.2560.1400" timestamp="1587050615271" />
     <state x="93" y="93" width="1095" height="1215" key="dock-window-1" timestamp="1582479980240">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
