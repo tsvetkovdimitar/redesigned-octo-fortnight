@@ -18,12 +18,12 @@
     <hr>
 
     <!-- Date/Time -->
-    <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
+    <p><span class="glyphicon glyphicon-time"></span> Posted {{$post->created_at->diffForHumans()}}</p>
 
     <hr>
 
     <!-- Preview Image -->
-    <img class="img-responsive" src="http://placehold.it/900x300" alt="">
+    <img class="img-responsive" src="{!! asset($post->photo->file)!!}" alt="">
 
     <hr>
 
@@ -32,17 +32,30 @@
 
     <hr>
 
+    @if(Session::has('comment_message'))
+
+        {{session('comment_message')}}
+
+        @endif
+
     <!-- Blog Comments -->
 
     <!-- Comments Form -->
     <div class="well">
         <h4>Leave a Comment:</h4>
-        <form role="form">
+        {!! Form::open(['method'=>'POST', 'action'=>'PostCommentsController@store']) !!}
+
+            <input type="hidden" name="post_id" value="{{$post->id}}">
+
             <div class="form-group">
-                <textarea class="form-control" rows="3"></textarea>
+                {!! Form::label('body', 'Body') !!}
+                {!! Form::textarea('body', null, ['class'=>'form-control', 'rows'=>3]) !!}
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+
+            <div class="form-group">
+                {!! Form::submit('Submit comment', ['class'=>'btn btn-primary']) !!}
+            </div>
+        {!! Form::close() !!}
     </div>
 
     <hr>
