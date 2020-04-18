@@ -9,7 +9,7 @@
 
 
 
-    @if($comment)
+    @if(count($comments) > 0)
 
         <h1>Comments</h1>
 
@@ -23,6 +23,8 @@
             </tr>
             </thead>
             <tbody>
+
+            @foreach($comments as $comment)
 
                 <tr>
                     <td>{{$comment->id}}</td>
@@ -71,15 +73,15 @@
 
                 </tr>
 
+                @endforeach
+
             </tbody>
         </table>
 
-    @endif
-
-
     @else
+
         <h1 class="text-center">No Comments</h1>
 
-
+    @endif
 
 @stop

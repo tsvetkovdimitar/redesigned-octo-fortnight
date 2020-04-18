@@ -19,8 +19,10 @@
                 <th>Category</th>
                 <th>Title</th>
                 <th>Body</th>
-                <th>Created</th>
-                <th>Updated</th>
+                <th>Post Link</th>
+                <th>Comments</th>
+                <th>Created at</th>
+                <th>Updated at</th>
             </tr>
         </thead>
         <tbody>
