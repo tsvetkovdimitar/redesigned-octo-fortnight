@@ -51,3 +51,10 @@ Route::group(['middleware'=>'admin'], function(){
 //    // we use Route::name to add prefix admin. to the route, to prevent route conflict with the front side
 //    Route::resource('/admin/users', 'AdminUsersController');
 //});
+
+Route::group(['middleware'=>'auth'], function(){
+
+
+    Route::post('comment/reply', 'CommentRepliesController@createReply');
+
+});
