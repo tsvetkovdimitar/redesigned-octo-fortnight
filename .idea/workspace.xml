@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e407aa2f-9843-4ef3-9b62-614cd807a034" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/post.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/post.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +248,8 @@
       <workItem from="1587050614976" duration="4899000" />
       <workItem from="1587071966088" duration="356000" />
       <workItem from="1587115044324" duration="18120000" />
-      <workItem from="1587205927431" duration="13278000" />
+      <workItem from="1587205927431" duration="13410000" />
+      <workItem from="1587277908393" duration="3574000" />
     </task>
     <servers />
   </component>
@@ -273,6 +274,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="866" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/3840.992.1360.708/0.0.2560.1400@0.0.2560.1400" timestamp="1586801816020" />
+    <state x="824" y="283" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587278009887">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="824" y="283" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/3840.992.1360.708/0.0.2560.1400@0.0.2560.1400" timestamp="1587278009887" />
     <state x="93" y="93" width="1095" height="1215" key="DirDiffDialog" timestamp="1587229654118">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -307,12 +312,12 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="435" y="84" key="SettingsEditor/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1585510374443" />
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1587205941967">
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog" timestamp="1587277911042">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.788.1360.728@0.0.2560.1400" timestamp="1585904236694" />
     <state x="765" y="399" key="com.intellij.ide.util.TipDialog/0.0.2560.1400/3840.890.1360.728@0.0.2560.1400" timestamp="1586077376897" />
-    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/3840.992.1360.708/0.0.2560.1400@0.0.2560.1400" timestamp="1587205941967" />
+    <state x="765" y="399" key="com.intellij.ide.util.TipDialog/3840.992.1360.708/0.0.2560.1400@0.0.2560.1400" timestamp="1587277911042" />
     <state x="93" y="93" width="1095" height="1215" key="dock-window-1" timestamp="1582479980240">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
