@@ -50,7 +50,7 @@
             <input type="hidden" name="post_id" value="{{$post->id}}">
 
             <div class="form-group">
-                {!! Form::label('body', 'Body') !!}
+{{--                {!! Form::label('body', 'Body') !!}--}}
                 {!! Form::textarea('body', null, ['class'=>'form-control', 'rows'=>3]) !!}
             </div>
 
@@ -85,41 +85,62 @@
 
             @foreach($comment->replies as $reply)
 
-            <!-- Nested Comment -->
-            <div class="media" style="padding-top: 10px">
-                <a class="pull-left" href="#">
-                    <img height="64" class="media-object" src="{!! asset($reply->photo)!!}" alt="">
-                </a>
-                <div class="media-body">
-                    <h4 class="media-heading">{{$reply->author}}
-                        <small>{{$reply->created_at->diffForHumans()}}</small>
-                    </h4>
-                   <p>{{$reply->body}}</p>
-                </div>
+                @if($reply->is_active == 1)
 
-                {!! Form::open(['method'=>'POST', 'action'=>'CommentRepliesController@createReply']) !!}
-                    <div class="form-group">
+                        <!-- Nested Comment -->
+                        <div class="media">
+                            <a class="pull-left" href="#">
+                                <img height="64" class="media-object" src="{!! asset($reply->photo)!!}" alt="">
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">{{$reply->author}}
+                                    <small>{{$reply->created_at->diffForHumans()}}</small>
+                                </h4>
+                                <p>{{$reply->body}}</p>
+                            </div>
 
-                        <input type="hidden" name="comment_id" value="{{$comment->id}}">
+                            <div class="comment-reply-container">
 
-                        {!! Form::label('body', 'Body') !!}
-                        {!! Form::textarea('body', null, ['class'=>'form-control','rows'=>1]) !!}
-                    </div>
+                                <button class="toggle-reply btn btn-primary pull-right">Reply</button>
 
-                    <div class="form-group">
-                        {!! Form::submit('Reply', ['class'=>'btn btn-primary']) !!}
-                    </div>
+                                <div class="comment-reply col-sm-12" style="display: none">
 
-                {!! Form::close() !!}
+                                    {!! Form::open(['method'=>'POST', 'action'=>'CommentRepliesController@createReply']) !!}
+                                    <div class="form-group">
 
-            </div>
-            <!-- End Nested Comment -->
+                                        <input type="hidden" name="comment_id" value="{{$comment->id}}">
+
+                                        {!! Form::label('body', 'Reply:') !!}
+                                        {!! Form::textarea('body', null, ['class'=>'form-control','rows'=>1]) !!}
+                                    </div>
+
+                                    <div class="form-group">
+                                        {!! Form::submit('Submit', ['class'=>'btn btn-primary']) !!}
+                                    </div>
+
+                            {!! Form::close() !!}
+
+                                </div>
+
+                            </div>
+                        <!-- End Nested Comment -->
+
+                        </div>
+
+                        @else
+
+
+                            <h1 class="text-center">No Replies</h1>
+
+
+                        @endif
 
                 @endforeach
 
             @endif
 
         </div>
+
     </div>
 
     @endforeach
@@ -127,3 +148,17 @@
     @endif
 
 @stop
+
+@section('scripts')
+
+    <script>
+
+        $(".comment-reply-container .toggle-reply").click(function(){
+
+            $(this).next().slideToggle("slow");
+
+        });
+
+    </script>
+
+    @stop

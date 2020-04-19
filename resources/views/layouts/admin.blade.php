@@ -170,7 +170,7 @@
                             </li>
 
                             <li>
-                                <a href="{{route('comments.index')}}">All Comments</a>
+                                <a href="{{route('comment.index')}}">All Comments</a>
                             </li>
 
                         </ul>
